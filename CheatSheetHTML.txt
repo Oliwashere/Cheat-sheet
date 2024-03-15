@@ -1,0 +1,85 @@
+---- CSS ----
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+---- Fuentes ----
+
+@font-face {
+    font-family: "fuente";
+    src: url(/fonts/fuente);
+}
+
+---- Por si hay que poner fondo ----
+
+html{
+    background-image: url("imagen");
+    background-color: #000000;    
+    object-fit:none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    overflow: auto;}
+
+---- Responsive ----
+
+    position: fixed;
+    display: flex;
+
+---- Icono página ----
+
+<link rel="shortcut icon" href="icono" type="image/x-icon">
+
+---- Importar HTML ----
+
+<iframe class="nombre" src="html" frameborder="0"></iframe>
+
+---- Celu ----
+
+@media (max-width: 1024px)
+
+---- Grid ----
+
+.container {
+    background-color: #000000;
+    display: grid;
+    grid-template-columns: repeat(1, 480px); 
+    grid-template-rows: repeat(2, 320px); 
+    width: 970px;
+    height: 1205px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 0 solid #e2e8f0;
+    padding: 13px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.item {
+    grid-column: 1; 
+    grid-row: 1; 
+    width: 462px;
+    height: 295px;
+    border-radius: 10px;
+    overflow: hidden;
+    
+}
+
+---- Animaciones ----
+
+@keyframes nombre {
+    0% {
+    
+    }
+    100% {
+ 
+    }
+}
+
+---- Plegable ----
+
+<details class="nombre">
+         <summary></summary>
+         <contenido>
+</details>
+
+
