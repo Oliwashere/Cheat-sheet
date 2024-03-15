@@ -36,6 +36,7 @@ html{
 
 ---- Celu ----
 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 @media (max-width: 1024px)
 
 ---- Grid ----
@@ -82,4 +83,9 @@ html{
          <contenido>
 </details>
 
+---- Redireccionar ----
+
+<a href:"URL.com/.html">
+</a>
+style="color: inherit; text-decoration: none"
 
